@@ -1,0 +1,19 @@
+<!DOCYTYPE html>
+  <html lang= "pt-br">
+
+   <head>
+      <metacharset= "UTF=-8">
+      <title>AULA1 - ESTRUTURA BÁSICA</title>
+     </head>
+     <body>
+      <p> Aula de Programação Front-End - 16/02 </p>
+      <h1> Funcionalidade da Tag HTML </h1>
+      <h2> Funcionalidade da Tag HTML </h2
+      <h3> Funcionalidade da Tag HTML </h3> 
+      <h4> Funcionalidade da Tag HTML </h4>
+      <h6> Funcionalidade da Tag HTML </h5>
+      <h6> Funcionalidade da Tag HTML </h6>
+
+   </body>
+
+ </html>
