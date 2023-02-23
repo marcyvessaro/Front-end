@@ -1,0 +1,11 @@
+ <!DOCTYPE html>
+ <lang= pt-br">
+<head>
+ <metacharset = UTF-8>
+<title>AULA- ESTRUTURA BÁSICA</title>
+</head>
+<body>
+<p> Aula de Programação Front-End - 18/02 </p>
+ A tag <html> é ultilizada para informar o navegador que tipo de estrutura tá sendo construida. Existem diversas tags do HTML, mas as principais são title, metta, head, body, footer, div. Dentro dessa tag é necessário declarar duas tags: head e body.
+</body>
+</html>
