@@ -1,0 +1,12 @@
+@import url("style/header.css");
+:root{
+    --cor-de-fundo:rgb(202, 182, 227);
+    --branco:white;
+    --degrade:linear-gradient(rgb(214, 4, 214), rgb(33, 1, 33) ); 
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-weight: 400px;
+}
