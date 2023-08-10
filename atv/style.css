@@ -1,12 +1,18 @@
-@import url("style/header.css");
+@import url(style/header.css);
 :root{
-    --cor-de-fundo:rgb(202, 182, 227);
-    --branco:white;
-    --degrade:linear-gradient(rgb(214, 4, 214), rgb(33, 1, 33) ); 
+    --cor-de-fundo:rgb(252, 67, 138);
+    --branco:rgb(255, 255, 255);
+    --degrade:linear-gradient(rgb(155, 35, 155), rgb(78, 5, 78));
 }
 
 body{
     background-color: var(--cor-de-fundo);
-    font-size: 16px;
-    font-weight: 400px;
+    font-size: 20px;
+    font-weight: 200px;   
+}
+.slogam{
+        color: rgb(4, 4, 4);
+        font-size: 25px;
+        /font-family: 'Fantasy', Arial, sans-serif;/
+        display: none;
 }
