@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<htnml lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> trabalho de js </title>
+    </head>
+    <body>
+        <div id=area oncflick="aguarde ()" onmouseenter="ir ()" onmouseout="site()">
+            <button id="botao1">
+                <a href="https://www.sadia.com.br/receitas/strogonoff-de-frango">site</a>
+            </div>
+            </button>
+            <div id=area oncflick="aguarde2 ()" onmouseenter="ir2 ()" onmouseout="site2()"></div>
+            <button id="botao2">
+                <a href="https://www.sadia.com.br/receitas/croissant-com-presunto-mussarela-e-mostarda">site</a>
+            
+            </button>
+            <button id="botao3">
+                <a href="https://www.sadia.com.br/receitas/sanduiche-de-forno-com-queijo-e-presunto">site</a>
+            
+            </button>
+        </div>
+        
+        <script>
+            function aguarde(){
+                var a = window.document.getElementById('botao1')
+                a.innerText="clicou"
+                a.style.background="red" 
+            }
+                
+            function ir(){
+                    var e = window.document.getElementById('botao1')
+                    e.innerText="entrou"
+                    e.style.background="yellow"
+            }
+            function site(){
+                    var s = window.document.getElementById('botao1')
+                    s.innerText="saiu"
+                    s.style.background="green"
+
+            }
+        
+            function aguarde(){
+                var a = window.document.getElementById('botao2')
+                a.innerText="clicou"
+                a.style.background="red" 
+            }
+                
+            function ir(){
+                    var e = window.document.getElementById('botao2')
+                    e.innerText="entrou"
+                    e.style.background="yellow"
+            }
+            function site(){
+                    var s = window.document.getElementById('botao2')
+                    s.innerText="saiu"
+                    s.style.background="green"
+            }
+            function aguarde(){
+                var a = window.document.getElementById('botao3')
+                a.innerText="clicou"
+                a.style.background="red" 
+            }
+                
+            function ir(){
+                    var e = window.document.getElementById('botao3')
+                    e.innerText="entrou"
+                    e.style.background="yellow"
+            }
+            function site(){
+                    var s = window.document.getElementById('botao3')
+                    s.innerText="saiu"
+                    s.style.background="green"
+            }
+        </script>
+    </body>
+</html>
