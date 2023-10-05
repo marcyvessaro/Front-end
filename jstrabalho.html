@@ -1,75 +1,74 @@
 <!DOCTYPE html>
-<htnml lang="pt-br">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <title> trabalho de js </title>
     </head>
     <body>
-        <div id=area oncflick="aguarde ()" onmouseenter="ir ()" onmouseout="site()">
-            <button id="botao1">
+        
+            <button id="botao1"  onclick="aguarde1 ()" onmouseenter="ir1 ()" onmouseout="site1 ()">
                 <a href="https://www.sadia.com.br/receitas/strogonoff-de-frango">site</a>
-            </div>
+            
             </button>
-            <div id=area oncflick="aguarde2 ()" onmouseenter="ir2 ()" onmouseout="site2()"></div>
-            <button id="botao2">
+          
+            <button id="botao2" onclick="aguarde2 ()" onmouseenter="ir2 ()" onmouseout="site2()">
                 <a href="https://www.sadia.com.br/receitas/croissant-com-presunto-mussarela-e-mostarda">site</a>
             
             </button>
-            <button id="botao3">
+            <button id="botao3" onclick="aguarde3 ()" onmouseenter="ir3 ()" onmouseout="site3()" >
                 <a href="https://www.sadia.com.br/receitas/sanduiche-de-forno-com-queijo-e-presunto">site</a>
             
             </button>
         </div>
         
         <script>
-            function aguarde(){
+            function aguarde1(){
                 var a = window.document.getElementById('botao1')
-                a.innerText="clicou"
+                
                 a.style.background="red" 
             }
                 
-            function ir(){
+            function ir1(){
                     var e = window.document.getElementById('botao1')
-                    e.innerText="entrou"
+                
                     e.style.background="yellow"
             }
-            function site(){
+            function site1(){
                     var s = window.document.getElementById('botao1')
-                    s.innerText="saiu"
+                    
                     s.style.background="green"
 
             }
         
-            function aguarde(){
+            function aguarde2(){
                 var a = window.document.getElementById('botao2')
-                a.innerText="clicou"
+                
                 a.style.background="red" 
             }
                 
-            function ir(){
+            function ir2(){
                     var e = window.document.getElementById('botao2')
-                    e.innerText="entrou"
+                    
                     e.style.background="yellow"
             }
-            function site(){
+            function site2(){
                     var s = window.document.getElementById('botao2')
-                    s.innerText="saiu"
+                    
                     s.style.background="green"
             }
-            function aguarde(){
+            function aguarde3(){
                 var a = window.document.getElementById('botao3')
-                a.innerText="clicou"
+                
                 a.style.background="red" 
             }
                 
-            function ir(){
+            function ir3(){
                     var e = window.document.getElementById('botao3')
-                    e.innerText="entrou"
                     e.style.background="yellow"
             }
-            function site(){
+            function site3(){
                     var s = window.document.getElementById('botao3')
-                    s.innerText="saiu"
+                    
                     s.style.background="green"
             }
         </script>
