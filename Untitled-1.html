@@ -1,31 +1,46 @@
 <!DOCTYPE html>
-
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title> Trablahando com CSS externo</title>
-    <link rel="stylesheet" hrf="style.html">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rádio Grêmio Estudantil</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/efeitos_sonoros.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
 </head>
 <body>
-    <p></p>
-    <header></header>
-    <main>
-        <section>
-            <form>
-                <fieldset>
-                    <legend><strong> Formulário de clientes</strong></legend>
-                    <br>
-                    <section class="imputBox">
-                        <input type="text" name="nome"class="inputUser" required>
-                        <label for="nome" class="labelinput">Nome completo</label>
-                        <label for="email" CLASS="labelinput">Email</label>
-                    </section>
-<br><br>
-<section class="inputBox"
-                </fieldset>
-            </form>
-        </section>
-    </main>
+
+    <h1>Efeitos Sonoros</h1>
+    <h2>Rádio Grêmio Estudantil</h2>
+
+    <section class="teclado">
+        <button class="tecla tecla_latido"><img src="images/cachorro.svg" alt="Aplausos"></button>
+        <button class="tecla tecla_miado"><img src="images/gato.svg" alt="Vaia"></button>
+        <button class="tecla tecla_rugido"><img src="images/leao.svg" alt="Risada"></button>
+        <button class="tecla tecla_piado"><img src="images/passarinho.svg" alt="Errado"></button>
+        <button class="tecla tecla_cigarra"><img src="images/cigarra.svg" alt="Grilo"></button>
+        <button class="tecla tecla_relincha"><img src="images/cavalo.svg" alt="Tambores"></button>
+
+        <button class="tecla tecla_bufarbaleua"><img src="images/baleia.svg" alt="Trombeta"></button>
+      
+    </section>
+
+    <audio src="sounds/aplausos.wav" id="som_tecla_latido"></audio>
+    <audio src="sounds/vaia.wav" id="som_tecla_miado"></audio>
+    <audio src="sounds/risadas.wav" id="som_tecla_rugido"></audio>
+    <audio src="sounds/errado.wav" id="som_tecla_piado"></audio>
+    <audio src="sounds/grilo.wav" id="som_tecla_cigarra"></audio>
+    <audio src="sounds/tambores.wav" id="som_tecla_bufarbaleia"></audio>
+    <audio src="sounds/trombeta.wav" id="som_tecla_relincha"></audio>
+    
+
 </body>
 </html>
