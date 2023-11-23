@@ -1,0 +1,79 @@
+:root {
+    --cinza: #aaa;
+    --vermelha: #e93d50;
+    --laranja: #ffa600;
+    --branca: #fff;
+    --luz: #ff5c77
+  }
+  
+  body {
+    align-items: center;
+    background: linear-gradient(45deg, #ffffff 0%,#f3af1b 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    
+  }
+  
+  h1 {
+    color: var(--branca);
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  
+  .teclado {
+    background-image: url('img/bichoes.webp');
+    box-shadow: 6px 8px 0 6px #ffffff, 10px 10px 10px #000;
+    border-radius: 30px;
+    
+    gap: 10px;
+    
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .tecla {
+    background-color: var(--branca);
+    border-radius: 1000px;
+    box-shadow: 3px 3px 0 var(--branca);
+    color: var(--laranja);
+    cursor: pointer;
+    height: 120px;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    width: 120px;
+    margin-left: 20px;
+  }
+  
+  .tecla.ativa,
+  .tecla:active {
+    background-color: var(--laranja);
+    border: 4px solid  var(--laranja);
+    box-shadow: 3px 3px 0 var(--laranja) inset;
+    color: var(--branca);
+    outline: none;
+  }
+  
+  .tecla.focus,
+  .tecla:focus {
+    outline: none;
+    box-shadow: 1px 1px 10px var(--luz);
+  }
+  
+  .tecla.ativa:focus,
+  .tecla:active:focus {
+    box-shadow: 3px 3px 0 var(--laranja) inset, 1px 1px 10px var(--luz);
+  }
+
+  img {
+    border-radius: 1000px;
+
+  
+  }
